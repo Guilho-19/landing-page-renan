@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Gerente Renan</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <nav class="top-nav">
+                <div class="site-name">Parceiro Cury</div>
+                <div class="nav-links">
+                    <a href="#">Nossos produtos</a>
+                    <a href="#">Seja parceiro</a>
+                    <a href="#">Sobre mim</a>
+                    <button class="btn">Fale Conosco</button>
+                </div>
+            </nav>
+
+            <div class="hero">
+                <h1 class="pag-title">Gerente Renan</h1>
+                <p class="subtitle">Seu parceiro de confiança para soluções imobiliárias</p>
+                <button class="btn cta-btn">Saiba Mais</button>
+            </div>
+        </header>
+
+        <section class="content">
+            <h2>Conteúdo do Site</h2>
+        <p>Este é um exemplo de conteúdo que apareceria abaixo do cabeçalho. O cabeçalho fixo permaneceria no topo enquanto os usuários rolam a página.</p>
+        </section>
+
+        <section class="products-section">
+            <div class="section-header">
+                <h2>Nossos Lançamentos</h2>
+            </div>
+        
+        <!-- Lançamento 1 -->
+        <div class="products-grid">
+            <div class="product-card featured">
+                <div class="product-image">
+                    <img src="img/astroSM_01.jpeg" alt="Astro Santa Marina" width="600" height="325">
+                </div>
+                <div class="product-info">
+                    <span class="product-tag">Destaque</span>
+                    <h3 class="product-title">Astro Santa Marina</h3>
+                    <p class="product-description">
+                        Apartamentos à venda de 1 e 2 dormitórios, com terraço e lazer
+                        completo. Conheça o Astro Santa Marina com a Cury Construtora!
+                    </p>
+                    <p class="product-description">
+                        Fácil acesso a Marginal Tietê;<br>
+                        Próximo ao Mercado Municipal;<br>
+                        Ao lado da futura Estação Santa Marina.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <!-- Lançamento 2 -->
+        <div class="products-grid">
+            <div class="product-card featured">
+                <div class="product-image">
+                    <img src="img/villaLM_01.jpeg" alt="Astro Santa Marina" width="600" height="325">
+                </div>
+                <div class="product-info">
+                    <span class="product-tag">Destaque</span>
+                    <h3 class="product-title">Cidade Villa Lobos - Melodia</h3>
+                    <p class="product-description">
+                        Apartamentos à venda de 2 dormitórios, com opção de terraço e lazer
+                        completo. Conheça o Cidade Villa Lobos - Melodia com a Cury Construtora!
+                    </p>
+                    <p class="product-description">
+                        Perto da Estação Villa Lobos - Jaguaré;<br>
+                        Próximo da UNIP e USP;<br>
+                        Fácil acesso a Marginal Pinheiros.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </section>
+
+        <script>
+            // Efeito de scroll no cabeçalho
+            window.addEventListener('scroll', function() {
+                const header = document.querySelector('.header');
+                if (window.scrollY > 50) {
+                    header.style.padding = '1rem 2rem';
+                    header.style.boxShadow = '0 4px 10px rgba(0, 0, 0, 0.1)';
+                } else {
+                    header.style.padding = '1.5rem 2rem';
+                    header.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.1)';
+                }
+            });
+
+            // Simulação de clique nos botões
+            document.querySelectorAll('.btn').forEach(button => {
+                button.addEventListener('click', () => {
+                    alert('Botão clicado! Implementar ação desejada.');
+                });
+            });
+
+        </script>
+    </body>
+</html>
